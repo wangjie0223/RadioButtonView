@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0E270B92D24419D002AD0BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0E270B02D24419D002AD0BD /* Assets.xcassets */; };
+		A0E270BB2D24419D002AD0BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E270B32D24419D002AD0BD /* LaunchScreen.storyboard */; };
+		A0E270BC2D24419D002AD0BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E270B52D24419D002AD0BD /* Main.storyboard */; };
+		A0E270BD2D24419D002AD0BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E270AF2D24419D002AD0BD /* AppDelegate.swift */; };
+		A0E270BE2D24419D002AD0BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E270B62D24419D002AD0BD /* SceneDelegate.swift */; };
+		A0E270BF2D24419D002AD0BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E270B72D24419D002AD0BD /* ViewController.swift */; };
+		A0E270C12D2441F8002AD0BD /* RadioButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E270C02D2441F8002AD0BD /* RadioButtonView.swift */; };
+		A0E270C32D2443C3002AD0BD /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E270C22D2443C2002AD0BD /* UIColorExtension.swift */; };
+		F10077A267B1519DA848899B /* Pods_RadioButtonViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD16ACE5EB02C15BE69A29BD /* Pods_RadioButtonViewDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		462542BBCF27F70C3A861E56 /* Pods-RadioButtonViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioButtonViewDemo.release.xcconfig"; path = "Target Support Files/Pods-RadioButtonViewDemo/Pods-RadioButtonViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6187460F80C8B4DDEB6C28E3 /* Pods-RadioButtonViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioButtonViewDemo.debug.xcconfig"; path = "Target Support Files/Pods-RadioButtonViewDemo/Pods-RadioButtonViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A0E270972D244197002AD0BD /* RadioButtonViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioButtonViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0E270AF2D24419D002AD0BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0E270B02D24419D002AD0BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0E270B12D24419D002AD0BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0E270B22D24419D002AD0BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0E270B42D24419D002AD0BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0E270B62D24419D002AD0BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A0E270B72D24419D002AD0BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0E270C02D2441F8002AD0BD /* RadioButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonView.swift; sourceTree = "<group>"; };
+		A0E270C22D2443C2002AD0BD /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		AD16ACE5EB02C15BE69A29BD /* Pods_RadioButtonViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RadioButtonViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0E270942D244197002AD0BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10077A267B1519DA848899B /* Pods_RadioButtonViewDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73D992E8A12D983C726A05D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD16ACE5EB02C15BE69A29BD /* Pods_RadioButtonViewDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0E2708E2D244197002AD0BD = {
+			isa = PBXGroup;
+			children = (
+				A0E270B82D24419D002AD0BD /* RadioButtonViewDemo */,
+				A0E270982D244197002AD0BD /* Products */,
+				CC6963E33B2751E36C9DE2D7 /* Pods */,
+				73D992E8A12D983C726A05D2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A0E270982D244197002AD0BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0E270972D244197002AD0BD /* RadioButtonViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0E270B82D24419D002AD0BD /* RadioButtonViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A0E270AF2D24419D002AD0BD /* AppDelegate.swift */,
+				A0E270B02D24419D002AD0BD /* Assets.xcassets */,
+				A0E270B12D24419D002AD0BD /* Info.plist */,
+				A0E270B32D24419D002AD0BD /* LaunchScreen.storyboard */,
+				A0E270B52D24419D002AD0BD /* Main.storyboard */,
+				A0E270B62D24419D002AD0BD /* SceneDelegate.swift */,
+				A0E270B72D24419D002AD0BD /* ViewController.swift */,
+				A0E270C22D2443C2002AD0BD /* UIColorExtension.swift */,
+				A0E270C02D2441F8002AD0BD /* RadioButtonView.swift */,
+			);
+			path = RadioButtonViewDemo;
+			sourceTree = "<group>";
+		};
+		CC6963E33B2751E36C9DE2D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6187460F80C8B4DDEB6C28E3 /* Pods-RadioButtonViewDemo.debug.xcconfig */,
+				462542BBCF27F70C3A861E56 /* Pods-RadioButtonViewDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0E270962D244197002AD0BD /* RadioButtonViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0E270AA2D244198002AD0BD /* Build configuration list for PBXNativeTarget "RadioButtonViewDemo" */;
+			buildPhases = (
+				484E7C5D0494B8C47D46B8C3 /* [CP] Check Pods Manifest.lock */,
+				A0E270932D244197002AD0BD /* Sources */,
+				A0E270942D244197002AD0BD /* Frameworks */,
+				A0E270952D244197002AD0BD /* Resources */,
+				2C248C3655B49FF840519DB2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadioButtonViewDemo;
+			productName = RadioButtonViewDemo;
+			productReference = A0E270972D244197002AD0BD /* RadioButtonViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0E2708F2D244197002AD0BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A0E270962D244197002AD0BD = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = A0E270922D244197002AD0BD /* Build configuration list for PBXProject "RadioButtonViewDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0E2708E2D244197002AD0BD;
+			productRefGroup = A0E270982D244197002AD0BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0E270962D244197002AD0BD /* RadioButtonViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0E270952D244197002AD0BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E270B92D24419D002AD0BD /* Assets.xcassets in Resources */,
+				A0E270BB2D24419D002AD0BD /* LaunchScreen.storyboard in Resources */,
+				A0E270BC2D24419D002AD0BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C248C3655B49FF840519DB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RadioButtonViewDemo/Pods-RadioButtonViewDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RadioButtonViewDemo/Pods-RadioButtonViewDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RadioButtonViewDemo/Pods-RadioButtonViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		484E7C5D0494B8C47D46B8C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RadioButtonViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0E270932D244197002AD0BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E270BD2D24419D002AD0BD /* AppDelegate.swift in Sources */,
+				A0E270C32D2443C3002AD0BD /* UIColorExtension.swift in Sources */,
+				A0E270BE2D24419D002AD0BD /* SceneDelegate.swift in Sources */,
+				A0E270C12D2441F8002AD0BD /* RadioButtonView.swift in Sources */,
+				A0E270BF2D24419D002AD0BD /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A0E270B32D24419D002AD0BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0E270B22D24419D002AD0BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A0E270B52D24419D002AD0BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0E270B42D24419D002AD0BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0E270AB2D244198002AD0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6187460F80C8B4DDEB6C28E3 /* Pods-RadioButtonViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YEAF8YMCJ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RadioButtonViewDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fyqx.www.RadioButtonViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0E270AC2D244198002AD0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 462542BBCF27F70C3A861E56 /* Pods-RadioButtonViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YEAF8YMCJ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RadioButtonViewDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fyqx.www.RadioButtonViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0E270AD2D244198002AD0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0E270AE2D244198002AD0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0E270922D244197002AD0BD /* Build configuration list for PBXProject "RadioButtonViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0E270AD2D244198002AD0BD /* Debug */,
+				A0E270AE2D244198002AD0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0E270AA2D244198002AD0BD /* Build configuration list for PBXNativeTarget "RadioButtonViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0E270AB2D244198002AD0BD /* Debug */,
+				A0E270AC2D244198002AD0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0E2708F2D244197002AD0BD /* Project object */;
+}
